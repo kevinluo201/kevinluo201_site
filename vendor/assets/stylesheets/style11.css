@@ -88,13 +88,13 @@ img.svg{
   height: 100%;
   width: 100%;
 /*	display: none;*/
-	
+
   -webkit-transition: .2s all ease;
   -o-transition: .2s all ease;
   transition: .2s all ease;
   -webkit-transition-delay: .5s;
   -o-transition-delay: .5s;
-  transition-delay: .5s; }  
+  transition-delay: .5s; }
 .arlo_tm_preloader .spinner_wrap{
 	position: absolute;
 	top: 50%;
@@ -113,20 +113,20 @@ img.svg{
     height: 50%;
     width: 100%;
     background-color: #000;
-	
+
     -webkit-transition: .7s all ease;
     -o-transition: .7s all ease;
     transition: .7s all ease;
 }
 .arlo_tm_preloader:before{
     top: 0;
-    left: 0; 
+    left: 0;
 }
 .arlo_tm_preloader:after{
     bottom: 0;
-	left: 0; 
+	left: 0;
 }
-.arlo_tm_preloader.loaded:before, 
+.arlo_tm_preloader.loaded:before,
 .arlo_tm_preloader.loaded:after{height: 0%;}
 
 /*---------------------------------------------------*/
@@ -142,7 +142,7 @@ img.svg{
 	background-color: #fff;
 	z-index: 15;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.09);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -173,7 +173,7 @@ img.svg{
 .arlo_tm_leftpart .inner .menu ul{
 	margin: 0px;
 	list-style-type: none;
-	width: 100%;	
+	width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ img.svg{
 	display: block;
 	position: relative;
 	padding: 13px 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -214,7 +214,7 @@ img.svg{
 	background-color: rgba(0,0,0,.08);
 	left: 0px;
 	bottom: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -239,7 +239,7 @@ img.svg{
 .arlo_tm_leftpart .inner .bottom ul li a{
 	text-decoration: none;
 	color: #000;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -254,7 +254,7 @@ img.svg{
 	position: absolute;
 	right: 0px;
 	bottom: 20%;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -281,7 +281,7 @@ img.svg{
 	top: 14px;
     left: 15px;
 	transform: rotate(0deg);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -309,7 +309,7 @@ body.topmenu .arlo_tm_rightpart{padding-left: 0px;}
 	z-index: 11;
 	padding: 30px 0px;
 	transition: all .3s ease;
-	
+
 }
 .arlo_tm_topmenu .topmenu_inner{
 	width: 100%;
@@ -358,7 +358,7 @@ body.topmenu .arlo_tm_rightpart{padding-left: 0px;}
 	z-index: 11;
 	padding: 30px 0px;
 	transition: all .3s ease;
-	
+
 }
 .arlo_tm_univ_topmenu .topmenu_inner{
 	width: 100%;
@@ -559,7 +559,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	display: block;
 	font-family: "Montserrat";
 	position: relative;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -652,7 +652,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	clear: both;
 	float: left;
 	padding-left: 400px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -685,7 +685,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 }
 
 /*---------------------------------------------------*/
-/*	05) ARLO HERO 
+/*	05) ARLO HERO
 /*---------------------------------------------------*/
 
 .arlo_tm_hero_header{
@@ -743,7 +743,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	border-radius: 100%;	
+	border-radius: 100%;
 }
 .arlo_tm_hero_header .hero_content .image_wrap .main:before{
 	position: absolute;
@@ -909,7 +909,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
     position: relative;
 	border-bottom: 1px solid transparent;
-	
+
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -981,7 +981,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	position: relative;
 	font-size: 35px;
 	font-weight: 600;
-	
+
 }
 .arlo_title_holder h3:before{
 	position: absolute;
@@ -1008,7 +1008,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	float: left;
 	background-color: #f7f7f7;
 	padding: 138px 0px 104px 0px;
-	background-image: url("..//img/shape/1.jpg");
+	background-image: asset-url("shape/1.jpg");
 	background-size: cover;
 	background-position: bottom center;
 	background-repeat: no-repeat;
@@ -1040,7 +1040,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	box-shadow: 0 0 30px rgba(0, 0, 0,.1);
 	top: 0px;
 	padding: 45px 40px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1163,7 +1163,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	-webkit-animation: wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
 	-moz-animation:    wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
 	animation:         wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-	width:100%;	
+	width:100%;
 }
 
 @-webkit-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
@@ -1234,7 +1234,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	display: inline-block;
 	margin-bottom: 10px;
 	position: relative;
-	
+
 	-webkit-transition: all .1s ease;
 	   -moz-transition: all .1s ease;
 	    -ms-transition: all .1s ease;
@@ -1308,7 +1308,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	float: left;
 	padding: 143px 0px 130px 0px;
 	margin-bottom: 139px;
-	background-image: url("..//img/shape/1.jpg");
+	background-image: asset-url("shape/1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1395,7 +1395,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
 	top: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1437,7 +1437,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	bottom: -32px;
 	background-color: #FF5E5F;
 	padding: 0px 10px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1470,7 +1470,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("..//img/shape/1.jpg");
+	background-image: asset-url("shape/1.jpg");
 	padding: 139px 0px 100px 0px;
 }
 .arlo_tm_timeline .timeline_inner{
@@ -1500,7 +1500,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	box-shadow: 0 0 30px rgba(0, 0, 0,.1);
 	top: 0px;
 	padding: 45px 40px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1683,7 +1683,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	position: relative;
 	box-shadow: 0 0 30px rgba(0, 0, 0,.1);
 	top: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1736,7 +1736,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
 	position: relative;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1764,7 +1764,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
 	position: relative;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1788,7 +1788,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	text-decoration: none;
 	color: #000;
 	display: block;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1887,7 +1887,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
     position: relative;
 	border-bottom: 1px solid transparent;
-	
+
     -webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1917,7 +1917,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 .arlo_tm_contact .contact_inner .right .input_wrap ul li{
 	margin: 0px 0px 25px 0px;
 	width: 100%;
-	float:left; 
+	float:left;
 	border: 1px solid #6f6f6f;
 }
 .arlo_tm_contact .contact_inner .right .input_wrap ul li input{
@@ -2004,7 +2004,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	float: left;
 	position: relative;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2053,7 +2053,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
 	position: relative;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2081,7 +2081,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
 	position: relative;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2107,7 +2107,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	text-decoration: none;
 	color: #000;
 	display: block;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2237,7 +2237,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 .arlo_tm_sidebar_wrap .sidebar_list_wrap ul li .posts_list ul li .title_date h3 a{
 	text-decoration: none;
 	color: #6f6f6f;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2324,7 +2324,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 .arlo_tm_sidebar_wrap .sidebar_list_wrap ul li .list_wrap ul li .inner a{
 	text-decoration: none;
 	color: #6f6f6f;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2356,7 +2356,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
     text-transform: capitalize;
     font-size: 13px;
 	border: 1px solid rgba(0,0,0,.2);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2383,11 +2383,11 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 .arlo_tm_pagination ul li{
 	margin: 0px 5px 5px 0px;
 	float: left;
-	text-align:center; 
+	text-align:center;
 	width: 38px;
 	height: 38px;
 	line-height: 38px;
-	background-color:  #6f6f6f; 
+	background-color:  #6f6f6f;
 }
 .arlo_tm_pagination ul li:nth-child(1){background-color: #FF5E5F;}
 .arlo_tm_pagination ul li span{
@@ -2399,7 +2399,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #fff;
 	display: block;
 	font-size: 14px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2429,7 +2429,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	text-decoration: none;
 	color: #FF5E5F;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2516,7 +2516,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
 	position: relative;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2544,7 +2544,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	color: #FF5E5F;
 	position: relative;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2622,7 +2622,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	right: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position:center; 
+	background-position:center;
 }
 .arlo_tm_news_single .single_inner .descriptions .tags{
 	width: 100%;
@@ -2659,7 +2659,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
     text-transform: capitalize;
     font-size: 13px;
     border: 1px solid rgba(0,0,0,.2);
-	
+
     -webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2722,7 +2722,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
     margin-bottom: 10px;
 	text-transform: capitalize;
 	text-decoration: none;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2740,7 +2740,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	text-decoration: none;
 	color: #FF5E5F;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2785,7 +2785,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
     border-bottom: 1px solid rgba(0,0,0,.2);
     color: #6f6f6f;
     padding-left: 0px !important;
-	
+
 	-webkit-transition: all .2s ease;
 	   -moz-transition: all .2s ease;
 	    -ms-transition: all .2s ease;
@@ -2805,7 +2805,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
     color: #6f6f6f;
     padding-left: 0px !important;
     height: 44px;
-    
+
 	-webkit-transition: all .2s ease;
 	   -moz-transition: all .2s ease;
 	    -ms-transition: all .2s ease;
@@ -2920,7 +2920,7 @@ body.extra .arlo_tm_rightpart.opened{padding-left: 400px;}
 	text-decoration: none;
 	color: #FF5E5F;
 	border-bottom: 1px solid transparent;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -3608,7 +3608,7 @@ svg.fn_elegant_shape path{
 	right: 0px;
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size:cover; 
+	background-size:cover;
 }
 .arlo_tm_hero_new .container{height: 100%;}
 .arlo_tm_hero_new .details{
@@ -3762,7 +3762,7 @@ body.univ h3{font-family: "Poppins";}
 	list-style-type:none;
 	margin: 0px 0px 30px 0px;
 	display: inline-block;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -3780,7 +3780,7 @@ body.univ h3{font-family: "Poppins";}
 	display: inline-block;
 	margin-bottom: 10px;
 	position: relative;
-	
+
 	-webkit-transition: all .1s ease;
 	   -moz-transition: all .1s ease;
 	    -ms-transition: all .1s ease;
@@ -3818,7 +3818,7 @@ body.univ h3{font-family: "Poppins";}
 	background-size: cover;
 	background-position: center;
 	transform: translateZ(0);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -3837,7 +3837,7 @@ body.univ h3{font-family: "Poppins";}
 	background-color: rgba(255,94,95,.85);
 	opacity: 0;
 	visibility: hidden;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -3863,7 +3863,7 @@ body.univ h3{font-family: "Poppins";}
 	top: -5px;
 	opacity: 0;
 	visibility: hidden;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -3876,7 +3876,7 @@ body.univ h3{font-family: "Poppins";}
 	bottom: -5px;
 	opacity: 0;
 	visibility: hidden;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -4030,7 +4030,7 @@ body.univ h3{font-family: "Poppins";}
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	
+
 }
 .arlo_tm_univ_about_section .inner .left{
 	width: 50%;
@@ -4099,7 +4099,7 @@ body.univ h3{font-family: "Poppins";}
 	list-style-type:none;
 	width:100%;
 	margin: 0px;
-	
+
 	-webkit-perspective: 500px;
 	-moz-perspective: 500px;
 	perspective: 500px;
@@ -4179,7 +4179,7 @@ body.univ h3{font-family: "Poppins";}
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.15);
 	top: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -4221,7 +4221,7 @@ body.univ h3{font-family: "Poppins";}
 	bottom: -32px;
 	background-color: #FF5E5F;
 	padding: 0px 10px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -4530,7 +4530,7 @@ body.univ h3{font-family: "Poppins";}
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background-color:rgba(0,0,0,.5); 
+	background-color:rgba(0,0,0,.5);
 }
 .arlo_tm_agency_wrap .agency_hero .content{
 	position: absolute;
@@ -4556,7 +4556,7 @@ body.univ h3{font-family: "Poppins";}
 	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: 600;
-} 
+}
 .agency_partners{
 	width: 100%;
 	float: left;
@@ -4670,11 +4670,11 @@ body.univ h3{font-family: "Poppins";}
 	font-size: 22px;
 	font-weight: 500;
 	margin-bottom: 3px;
-	
+
 }
 .arlo_tm_univ_video .content .title .second{
 	color: #fff;
-	font-size: 40px;	
+	font-size: 40px;
 }
 
 .watch{
@@ -4779,7 +4779,7 @@ body.univ h3{font-family: "Poppins";}
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
 	top: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -4822,7 +4822,7 @@ body.univ h3{font-family: "Poppins";}
 	bottom: -32px;
 	background-color: #FF5E5F;
 	padding: 0px 10px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -5047,7 +5047,7 @@ body.univ h3{font-family: "Poppins";}
 	height: auto;
 	clear: both;
 	float: left;
-} 
+}
 .arlo_tm_univ_main_footer .short_list > ul > li .links_wrap{margin-bottom: 9px;}
 .arlo_tm_univ_main_footer .short_list > ul > li .bottom_wrap{
 	padding: 63px 0px 65px 0px;
@@ -5304,7 +5304,7 @@ body.business h3{font-family: "Poppins";}
 	background-size: cover;
 	background-position: center;
 	transform: translateZ(0);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -5384,7 +5384,7 @@ body.business h3{font-family: "Poppins";}
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
 	top: 0px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -5427,7 +5427,7 @@ body.business h3{font-family: "Poppins";}
 	bottom: -32px;
 	background-color: #FF5E5F;
 	padding: 0px 10px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -5526,7 +5526,7 @@ body.business h3{font-family: "Poppins";}
     letter-spacing: 0px;
     line-height: 1.5;
 	font-weight: 600;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -5772,7 +5772,7 @@ body.business h3{font-family: "Poppins";}
     border-radius: 2px;
     font-weight: 500;
     font-family: 'Montserrat';
-	
+
     -webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -6144,7 +6144,7 @@ body.photography h3{
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
-	right: 0px; 
+	right: 0px;
 	background-color: #FF5E5F;
 	border-radius: 100%;
 	transition: all .3s ease;
@@ -6385,11 +6385,11 @@ body.photography h3{
 	padding: 30px 20px 25px 20px;
 	z-index: 10;
 	margin-top: 10px;
-	
+
 	opacity: 0;
 	visibility: hidden;
 	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -6413,7 +6413,7 @@ body.photography h3{
 	text-transform: capitalize;
 	display: block;
 	font-family: "Poppins";
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -6595,7 +6595,7 @@ body.freelancer h3{font-family: "Poppins";}
 	-webkit-animation: wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
 	-moz-animation:    wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
 	animation:         wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-	width:100%;	
+	width:100%;
 }
 
 @-webkit-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
@@ -6607,7 +6607,7 @@ body.freelancer h3{font-family: "Poppins";}
 	height: auto;
 	clear: both;
 	float: left;
-	
+
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -6616,7 +6616,7 @@ body.freelancer h3{font-family: "Poppins";}
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	
+
 }
 
 /*---------------------------------------------------*/
@@ -6831,5 +6831,5 @@ body.freelancer h3{font-family: "Poppins";}
 	.arlo_tm_news > ul > li .inner .details{padding: 25px 23px 22px 23px;}
 	.arlo_tm_business_wrap .photography_title .main_title h3{font-size: 30px;}
 	.arlo_tm_photo_instagram ul li{width: 50%;}
-	
-}	
+
+}

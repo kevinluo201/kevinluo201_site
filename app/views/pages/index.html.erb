@@ -25,7 +25,7 @@
 
         </span>
         <div class="title_holder">
-          <h3>Albert Walkers</h3>
+          <h3>Kevin Luo</h3>
           <p>I'm a <span class="arlo_tm_animation_text_word"></span></p>
         </div>
       </div>
@@ -39,63 +39,65 @@
   <div class="arlo_tm_about_second">
     <div class="container">
       <div class="arlo_title_holder">
-        <h3>About <span>Me</span></h3>
+        <h3><%= "#{t('about')} #{ I18n.locale == :en ? 'Me' : '' }" %></h3>
       </div>
       <div class="about_inner">
         <div class="title wow fadeInUp" data-wow-duration="0.8s">
-          <h3>I'm Albert Walkers and <span class="arlo_tm_animation_text_word"></span></h3>
+          <h3>I'm Kevin Luo and <span class="arlo_tm_animation_text_word"></span></h3>
         </div>
         <div class="text wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <p>Hi! My name is <span>Albert Walkers.</span> I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+          <p>Hi! My name is <span>Kevin Luo.</span> I've been practicing programming skill over 10 years (especially Web-related technologies), which is my hobby and also a practical skill. I have become a <span>full-stack</span> engineer since the beginning of my career. My favorite languages are <span>Ruby</span> and <span>Javascript</span>. Moreover, one of my favorite things at work is to understand the relation between the business and the software, by which I can design the software more reasonable and useful.</p>
+          <p>"Never limit myself" is probably the most suitable phrase to describe me. I love to learn or do new things. For example, I have expertise in CAD to draw building's facade and internal decoration; I held sessions voluntarily to teach people how to program; and I also like to cook and read in my leisure	time.</p>
+
         </div>
         <div class="info_list wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
           <ul>
             <li>
               <div class="inner">
                 <label>Birthday:</label>
-                <span>01.07.1990</span>
+                <span>1987-Feb-01</span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Age:</label>
-                <span>29</span>
+                <span><%= ((Time.now - Time.new(1987, 2, 1)) / (60 * 60 * 24 * 365)).to_i %></span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Location:</label>
-                <span><a href="#">Ave 11, New York, USA</a></span>
+                <span><a href="#">Taipei City, Taiwan</a></span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Interests:</label>
-                <span>PlayStation, Reading</span>
+                <span>Sports, Reading, Movies</span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Study:</label>
-                <span><a href="#">Univercity of Chicago</a></span>
+                <span><a href="#">National Tsing Hua Univercity</a></span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Degree:</label>
-                <span>Master</span>
+                <span>Master of Computer Science</span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Mail:</label>
-                <span><a href="#">mymail@gmail.com</a></span>
+                <span><a href="#">kevinluo201@gmail.com</a></span>
               </div>
             </li>
             <li>
               <div class="inner">
                 <label>Phone:</label>
-                <span><a href="#">+77 022 177 05 05</a></span>
+                <span><a href="#">+886 922 572 491</a></span>
               </div>
             </li>
           </ul>
@@ -130,10 +132,7 @@
                 <h3>Web Development</h3>
               </div>
               <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-              <div class="read_more">
-                <a href="#">Read More</a>
+                <p>I can decide the most suitable method to build a website to meet customer's requirements.</p>
               </div>
             </div>
           </li>
@@ -143,13 +142,10 @@
                 <span>02</span>
               </div>
               <div class="title">
-                <h3>Graphic Design</h3>
+                <h3>Modern Frontend Framework</h3>
               </div>
               <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-              <div class="read_more">
-                <a href="#">Read More</a>
+                <p>I use Vue.js and webpack to build a modern site.</p>
               </div>
             </div>
           </li>
@@ -159,61 +155,10 @@
                 <span>03</span>
               </div>
               <div class="title">
-                <h3>Adobe Photoshop</h3>
+                <h3>Information Architect</h3>
               </div>
               <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-              <div class="read_more">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-            <div class="inner">
-              <div class="number">
-                <span>04</span>
-              </div>
-              <div class="title">
-                <h3>Web Organize</h3>
-              </div>
-              <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-              <div class="read_more">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
-            <div class="inner">
-              <div class="number">
-                <span>05</span>
-              </div>
-              <div class="title">
-                <h3>Brand Identity</h3>
-              </div>
-              <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-              <div class="read_more">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1s">
-            <div class="inner">
-              <div class="number">
-                <span>06</span>
-              </div>
-              <div class="title">
-                <h3>Digital Marketing</h3>
-              </div>
-              <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-              <div class="read_more">
-                <a href="#">Read More</a>
+                <p>I can help customer to structure the website for better exploring and SEO.</p>
               </div>
             </div>
           </li>
@@ -229,51 +174,45 @@
               <h3>In a <span>short time</span>, I have been able to achieve excellence in all areas of development.</h3>
             </div>
             <div class="right">
-              <p>I provide cost-effective and high quality products to meet our Clients’ needs of timely We provide cost-effective and high quality products to meet our Clients’ needs of timely.</p>
+              <p>I provide cost-effective and high quality products to meet clients’ needs of timely.</p>
             </div>
           </div>
           <div class="progress_list wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <ul>
               <li>
                 <div class="inner">
-                  <label>Web Development:</label>
+                  <label>Ruby on Rails:</label>
                   <span>95%</span>
                 </div>
               </li>
               <li>
                 <div class="inner">
-                  <label>Brand Identity:</label>
-                  <span>80%</span>
-                </div>
-              </li>
-              <li>
-                <div class="inner">
-                  <label>Adobe Photoshop:</label>
+                  <label>Vue.js/Javascript/JQuery:</label>
                   <span>85%</span>
                 </div>
               </li>
               <li>
                 <div class="inner">
-                  <label>Adobe Illustrator:</label>
+                  <label>MySQL:</label>
+                  <span>85%</span>
+                </div>
+              </li>
+              <li>
+                <div class="inner">
+                  <label>Linux Ubuntu/Debian:</label>
+                  <span>80%</span>
+                </div>
+              </li>
+              <li>
+                <div class="inner">
+                  <label>Docker:</label>
                   <span>70%</span>
                 </div>
               </li>
               <li>
                 <div class="inner">
-                  <label>JavaScript:</label>
-                  <span>77%</span>
-                </div>
-              </li>
-              <li>
-                <div class="inner">
                   <label>WordPress:</label>
-                  <span>83%</span>
-                </div>
-              </li>
-              <li>
-                <div class="inner">
-                  <label>CSS &amp; PHP:</label>
-                  <span>90%</span>
+                  <span>60%</span>
                 </div>
               </li>
             </ul>
@@ -286,24 +225,6 @@
 </div>
 <!-- /SERVICES -->
 
-<!-- CALL TO ACTION -->
-<div class="arlo_tm_section">
-  <div class="arlo_tm_call_action">
-    <div class="container">
-      <div class="action_inner">
-        <div class="left">
-          <p>We are developers team. We create everything.</p>
-        </div>
-        <div class="right">
-          <div class="arlo_tm_button">
-            <a href="#"><span>Send Message</span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /CALL TO ACTION -->
 
 <!-- PORTFOLIO -->
 <div class="arlo_tm_section" id="portfolio">
@@ -370,136 +291,6 @@
 </div>
 <!-- /PORTFOLIO -->
 
-<!-- DETAILS -->
-<div class="arlo_tm_section">
-  <div class="arlo_tm_details_wrap">
-    <div class="container">
-      <div class="details_inner">
-        <div class="left wow fadeInUp" data-wow-duration="0.8s">
-          <%= image_tag 'about/1.png', alt: "" %>
-        </div>
-        <div class="right wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <ul>
-            <li>
-              <div class="inner">
-                <div class="icon">
-                  <%= image_tag 'svg/responsive.svg', class: 'svg',alt: "" %>
-                </div>
-                <div class="text">
-                  <h3>Fully Responsive</h3>
-                  <p>Arlo practically looks good in all devices: IPhone, Blackbarry, Tablet, and Laptops.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="inner">
-                <div class="icon">
-                  <%= image_tag 'svg/suport.svg', class: 'svg',alt: "" %>
-                </div>
-                <div class="text">
-                  <h3>Friendly Support</h3>
-                  <p>Our support team work 24/7. And they can help you any time, if you have any problem.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="inner">
-                <div class="icon">
-                  <%= image_tag 'svg/safari.svg', class: 'svg', alt: "" %>
-                </div>
-                <div class="text">
-                  <h3>Cross Browsing</h3>
-                  <p>Template works stability in all modern web browsers. Such as Opera, Mozilla, Chrome, Safari and etc.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /DETAILS -->
-
-<!-- TEAM -->
-<div class="arlo_tm_section">
-  <div class="arlo_tm_team">
-    <div class="container">
-      <div class="arlo_title_holder">
-        <h3>Our <span>Experts</span></h3>
-      </div>
-      <div class="team_inner">
-        <ul>
-          <li class="wow fadeInUp" data-wow-duration="0.8s">
-            <div class="inner">
-              <div class="image">
-                <%= image_tag 'team/1.jpg', alt: "" %>
-                <div class="main" data-img-url="<%= asset_path 'about/3.jpg' %>"></div>
-                <div class="social">
-                  <ul>
-                    <li><a href="#"><i class="xcon-facebook"></i></a></li>
-                    <li><a href="#"><i class="xcon-twitter"></i></a></li>
-                    <li><a href="#"><i class="xcon-linkedin"></i></a></li>
-                    <li><a href="#"><i class="xcon-instagram"></i></a></li>
-                    <li><a href="#"><i class="xcon-behance"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="details">
-                <h3>Markus Brooklyn</h3>
-                <span>Web Developer</span>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-            <div class="inner">
-              <div class="image">
-                <%= image_tag 'team/1.jpg', alt: "" %>
-                <div class="main" data-img-url="<%= asset_path 'about/4.jpg' %>"></div>
-                <div class="social">
-                  <ul>
-                    <li><a href="#"><i class="xcon-facebook"></i></a></li>
-                    <li><a href="#"><i class="xcon-twitter"></i></a></li>
-                    <li><a href="#"><i class="xcon-linkedin"></i></a></li>
-                    <li><a href="#"><i class="xcon-instagram"></i></a></li>
-                    <li><a href="#"><i class="xcon-behance"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="details">
-                <h3>Monica Rodriguez</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-            <div class="inner">
-              <div class="image">
-                <%= image_tag 'team/1.jpg', alt: "" %>
-                <div class="main" data-img-url="<%= asset_path 'about/5.jpg' %>"></div>
-                <div class="social">
-                  <ul>
-                    <li><a href="#"><i class="xcon-facebook"></i></a></li>
-                    <li><a href="#"><i class="xcon-twitter"></i></a></li>
-                    <li><a href="#"><i class="xcon-linkedin"></i></a></li>
-                    <li><a href="#"><i class="xcon-instagram"></i></a></li>
-                    <li><a href="#"><i class="xcon-behance"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="details">
-                <h3>Steve Tylor</h3>
-                <span>Manager</span>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /TEAM -->
-
 <!-- TIMELINE -->
 <div class="arlo_tm_section">
   <div class="arlo_tm_timeline">
@@ -512,10 +303,10 @@
           <li class="wow fadeInUp" data-wow-duration="0.8s">
             <div class="inner">
               <div class="number">
-                <span>2005 - 2006</span>
+                <span>2017 - present</span>
               </div>
               <div class="title">
-                <h3>Graphic Designer</h3>
+                <h3>Freelancer</h3>
               </div>
               <div class="text">
                 <p>Web development is the work involved in developing a web site for the Internet...</p>
@@ -525,10 +316,10 @@
           <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <div class="inner">
               <div class="number">
-                <span>2006 - 2009</span>
+                <span>2018 - 2019</span>
               </div>
               <div class="title">
-                <h3>Frontend Developer</h3>
+                <h3>Technician Leader</h3>
               </div>
               <div class="text">
                 <p>Web development is the work involved in developing a web site for the Internet...</p>
@@ -538,7 +329,7 @@
           <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
             <div class="inner">
               <div class="number">
-                <span>2009 - 2010</span>
+                <span>2014 - 2016</span>
               </div>
               <div class="title">
                 <h3>Mobile App Developer</h3>
@@ -551,36 +342,10 @@
           <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
             <div class="inner">
               <div class="number">
-                <span>2010 - 2012</span>
+                <span>2013 - 2014</span>
               </div>
               <div class="title">
                 <h3>Junior Designer</h3>
-              </div>
-              <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
-            <div class="inner">
-              <div class="number">
-                <span>2012 - 2016</span>
-              </div>
-              <div class="title">
-                <h3>Senior Designer</h3>
-              </div>
-              <div class="text">
-                <p>Web development is the work involved in developing a web site for the Internet...</p>
-              </div>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1s">
-            <div class="inner">
-              <div class="number">
-                <span>2016 - CURRENT</span>
-              </div>
-              <div class="title">
-                <h3>Lead Designer</h3>
               </div>
               <div class="text">
                 <p>Web development is the work involved in developing a web site for the Internet...</p>
@@ -594,7 +359,7 @@
 </div>
 <!-- /TIMELINE -->
 
-<!-- TESTIMONIAL -->
+<!-- TESTIMONIAL
 <div class="arlo_tm_section">
   <div class="arlo_tm_testimonial">
     <div class="testimonial_inner">
@@ -621,9 +386,9 @@
     </div>
   </div>
 </div>
-<!-- /TESTIMONIAL -->
+ /TESTIMONIAL -->
 
-<!-- NEWS -->
+<!-- NEWS
 <div class="arlo_tm_section" id="news">
   <div class="arlo_tm_home_news_wrapper_all">
     <div class="arlo_tm_home_news">
@@ -690,24 +455,7 @@
     </div>
   </div>
 </div>
-<!-- /NEWS -->
-
-<!-- PARTNERS -->
-<div class="arlo_tm_section">
-  <div class="arlo_tm_partners">
-    <div class="container">
-      <div class="partners_inner">
-        <ul class="owl-carousel">
-          <li class="item"><%= image_tag 'partners/1.png', alt: '' %></li>
-          <li class="item"><%= image_tag 'partners/2.png', alt: '' %></li>
-          <li class="item"><%= image_tag 'partners/3.png', alt: '' %></li>
-          <li class="item"><%= image_tag 'partners/4.png', alt: '' %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /PARTNERS -->
+/NEWS -->
 
 <!-- CONTACT -->
 <div class="arlo_tm_section" id="contact">
@@ -723,31 +471,23 @@
               <ul>
                 <li>
                   <%= image_tag 'svg/placeholder.svg', class: 'svg',alt: "" %>
-                  <span><label>Location:</label><a class="href_location" href="#">11 Ave, New York, USA</a></span>
+                  <span><label>Location:</label><a class="href_location" href="#">Taipei City, Taiwan</a></span>
                 </li>
                 <li>
                   <%= image_tag 'svg/phone-call.svg', class: 'svg',alt: "" %>
-                  <span><label>Phone:</label> <a href="tel:+77 022 177 05 05">+77 022 177 05 05</a></span>
+                  <span><label>Phone:</label> <a href="tel:+886 922 572 491">+886 922 572 491</a></span>
                 </li>
                 <li>
                   <%= image_tag 'svg/internet.svg', class: 'svg',alt: "" %>
-                  <span><label>Website:</label> <a href="https://mydomain.com" target="_blank">myaddress.com</a></span>
-                </li>
-                <li>
-                  <%= image_tag 'svg/twitter.svg', class: 'svg',alt: "" %>
-                  <span><label>Twitter:</label> <a href="https://twitter.com" target="_blank">@mytwitternick</a></span>
+                  <span><label>Website:</label> <a href="https://kevinluo201.com" target="_blank">kevinluo201.com</a></span>
                 </li>
                 <li>
                   <%= image_tag 'svg/facebook.svg', class: 'svg',alt: "" %>
-                  <span><label>Facebook:</label> <a href="https://fb.me/@facebooknick" target="_blank">@myfacebooknick</a></span>
-                </li>
-                <li>
-                  <%= image_tag 'svg/instagram.svg', class: 'svg',alt: "" %>
-                  <span><label>Instagram:</label> <a href="https://www.instagram.com" target="_blank">@myinstagramnick</a></span>
+                  <span><label>Facebook:</label> <a href="https://www.facebook.com/kevin.luo2" target="_blank">@kevin.luo2</a></span>
                 </li>
                 <li>
                   <%= image_tag 'svg/whatsapp.svg', class: 'svg',alt: "" %>
-                  <span><label>WhatsApp:</label> <a href="https://wa.me/@whatsappNickName" target="_blank">@mywhatsappnick</a></span>
+                  <span><label>LineId:</label>luokevin</span>
                 </li>
               </ul>
             </div>

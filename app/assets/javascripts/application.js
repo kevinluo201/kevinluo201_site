@@ -16,4 +16,3 @@
 //= require jquery
 //= require plugins
 //= require init
-//= require pages

@@ -232,58 +232,20 @@
     <div class="arlo_tm_portfolio">
       <div class="container">
         <div class="arlo_title_holder">
-          <h3>Creative <span>Works</span></h3>
+          <h3>Past <span>Works</span></h3>
         </div>
         <div class="arlo_tm_portfolio_titles"></div>
         <ul class="arlo_tm_portfolio_list">
-          <li class="design wow fadeInUp" data-wow-duration="0.8s">
-            <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Mockup Collection" data-category="Design">
-              <a href="portfolio-single.html">
-                <%= image_tag 'portfolio/600x600.jpg', alt: "" %>
-                <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path 'portfolio/1.jpg' %>"></div>
-              </a>
-            </div>
-          </li>
-          <li class="photography wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-            <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Yellow and Black Box" data-category="Photography">
-              <a href="portfolio-single.html">
-                <%= image_tag 'portfolio/600x600.jpg', alt: "" %>
-                <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path 'portfolio/2.jpg' %>"></div>
-              </a>
-            </div>
-          </li>
-          <li class="development wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-            <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Black Bag and Badge" data-category="Development">
-              <a href="portfolio-single.html">
-                <%= image_tag 'portfolio/600x600.jpg', alt: "" %>
-                <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path 'portfolio/3.jpg' %>"></div>
-              </a>
-            </div>
-          </li>
-          <li class="photography wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-            <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Piece of Magazine" data-category="Photography">
-              <a href="portfolio-single.html">
-                <%= image_tag 'portfolio/600x600.jpg', alt: "" %>
-                <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path 'portfolio/4.jpg' %>"></div>
-              </a>
-            </div>
-          </li>
-          <li class="design wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
-            <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Yellow Cup" data-category="Design">
-              <a href="portfolio-single.html">
-                <%= image_tag 'portfolio/600x600.jpg', alt: "" %>
-                <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path 'portfolio/5.jpg' %>"></div>
-              </a>
-            </div>
-          </li>
-          <li class="photography wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1s">
-            <div class="entry arlo_tm_portfolio_animation_wrap" data-title="Mix Mockup" data-category="Photography">
-              <a href="portfolio-single.html">
-                <%= image_tag 'portfolio/600x600.jpg', alt: "" %>
-                <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path 'portfolio/6.jpg' %>"></div>
-              </a>
-            </div>
-          </li>
+          <% @projects.each do |project| %>
+            <li class="design wow fadeInUp" data-wow-duration="0.8s">
+              <div class="entry arlo_tm_portfolio_animation_wrap" data-title="<%= project.title %>" data-category="<%= project.project_type %>">
+                <%= link_to project_path(project) do %>
+                  <%= image_tag "portfolio/600x600.jpg", alt: "" %>
+                  <div class="arlo_tm_portfolio_image_main" data-img-url="<%= asset_path "projects/#{project.images[0]}" %>"></div>
+                <% end %>
+              </div>
+            </li>
+          <% end %>
         </ul>
       </div>
     </div>

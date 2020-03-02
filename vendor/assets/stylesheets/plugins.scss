@@ -260,12 +260,12 @@ input[type="button"]{
 
 @font-face {
   font-family: 'xcon';
-  src: asset-url('font/xcon.eot?4965248');
-  src: asset-url('font/xcon.eot?4965248#iefix') format('embedded-opentype'),
-       asset-url('font/xcon.woff2?4965248') format('woff2'),
-       asset-url('font/xcon.woff?4965248') format('woff'),
-       asset-url('font/xcon.ttf?4965248') format('truetype'),
-       asset-url('font/xcon.svg?4965248#xcon') format('svg');
+  src: font-url('xcon.eot?4965248');
+  src: font-url('xcon.eot?4965248#iefix') format('embedded-opentype'),
+       font-url('xcon.woff2?4965248') format('woff2'),
+       font-url('xcon.woff?4965248') format('woff'),
+       font-url('xcon.ttf?4965248') format('truetype'),
+       font-url('xcon.svg?4965248#xcon') format('svg');
   font-weight: normal;
   font-style: normal;
 }

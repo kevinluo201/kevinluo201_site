@@ -10,7 +10,7 @@ This file is made by Marketify (2019)
 
 */
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	01) BASE
 /*------------------------------------------------------------------*/
 
@@ -37,7 +37,7 @@ blockquote:before,blockquote:after {
 	content: none;
 }
 ul, ol{
-	margin:0px;	
+	margin:0px;
 }
 ul li, ol li{
 	margin:0px;
@@ -108,7 +108,7 @@ code, pre {
 }
 
 pre{
-	display: block;	
+	display: block;
 	word-break: break-all;
 	word-wrap: break-word;
 }
@@ -130,7 +130,7 @@ pre code { white-space: pre-wrap; }
 .space500{width:100%; float:left; clear:both; margin-bottom:500px;}
 .space1000{width:100%; float:left; clear:both; margin-bottom:1000px;}
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	02) FORM ELEMENTS
 /*------------------------------------------------------------------*/
 
@@ -140,17 +140,17 @@ textarea{
 	resize:vertical;
 	font-family:"Montserrat";
 	letter-spacing: 1.2px !important;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	-ms-box-sizing: border-box;     /* IE 10 + */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	
+
 	line-height:1.4;
 	padding:10px!important;
 	width:100%;
 	border:1px solid #eee;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -176,20 +176,20 @@ input[type="color"],
 	font-size:13px;
 	min-width:auto;
 	letter-spacing:1.4px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	-ms-box-sizing: border-box;     /* IE 10 + */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	
+
 	font-family:"Montserrat";
-	
+
 	line-height:1.6;
 	padding:10px!important;
 	height:44px;
 	vertical-align:middle;
 	border:1px solid #eee;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -230,7 +230,7 @@ input[type="submit"]{
 	cursor:pointer;
 	color: #FFF;
 	background:#777;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -254,18 +254,18 @@ input[type="button"]{
 }
 
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	03) FONTELLO
 /*------------------------------------------------------------------*/
 
 @font-face {
   font-family: 'xcon';
-  src: url('font/xcon.eot?4965248');
-  src: url('font/xcon.eot?4965248#iefix') format('embedded-opentype'),
-       url('font/xcon.woff2?4965248') format('woff2'),
-       url('font/xcon.woff?4965248') format('woff'),
-       url('font/xcon.ttf?4965248') format('truetype'),
-       url('font/xcon.svg?4965248#xcon') format('svg');
+  src: asset-url('font/xcon.eot?4965248');
+  src: asset-url('font/xcon.eot?4965248#iefix') format('embedded-opentype'),
+       asset-url('font/xcon.woff2?4965248') format('woff2'),
+       asset-url('font/xcon.woff?4965248') format('woff'),
+       asset-url('font/xcon.ttf?4965248') format('truetype'),
+       asset-url('font/xcon.svg?4965248#xcon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -279,42 +279,42 @@ input[type="button"]{
   }
 }
 */
- 
+
  [class^="xcon-"]:before, [class*=" xcon-"]:before {
   font-family: "xcon";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
- 
+
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
- 
+
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
- 
+
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
- 
+
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .xcon-phone:before { content: '\e800'; } /* '' */
 .xcon-mail:before { content: '\e801'; } /* '' */
 .xcon-globe:before { content: '\e802'; } /* '' */
@@ -483,7 +483,7 @@ input[type="button"]{
 * 	Created Date : 01-01-2017
 */
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	04) SKELETON OR GRID
 /*------------------------------------------------------------------*/
 
@@ -496,14 +496,14 @@ input[type="button"]{
 	padding:0px 40px;
 	position:relative;
 	clear:both;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .row {
 	height:auto;
-} 
+}
 [class*="fl-col"], .fl-sidebar{
 	float: left;
 	margin-right: 4%;
@@ -514,7 +514,7 @@ input[type="button"]{
 [class*="fl-col"].last, .fl-sidebar.last, [class*="fl-col"].no-space, .fl-col-12{
 	margin-right:0px;
 }
-  
+
 .fl-col-12 {  width: 100%;      }
 .fl-col-9  {  width: 74%;       }
 .fl-col-8  {  width: 65.3333%;  }
@@ -556,7 +556,7 @@ input[type="button"]{
  */
 .justified-gallery{width:100%;position:relative;overflow:hidden}.justified-gallery>a,.justified-gallery>div{position:absolute;display:inline-block;overflow:hidden;filter:"alpha(opacity=10)";opacity:.1}.justified-gallery>a>img,.justified-gallery>div>img,.justified-gallery>a>a>img,.justified-gallery>div>a>img{position:absolute;top:50%;left:50%;margin:0;padding:0;border:0;filter:"alpha(opacity=0)";opacity:0}.justified-gallery>a>.caption,.justified-gallery>div>.caption{display:none;position:absolute;bottom:0;padding:5px;background-color:#000;left:0;right:0;margin:0;color:#fff;font-size:12px;font-weight:300;font-family:sans-serif}.justified-gallery>a>.caption.caption-visible,.justified-gallery>div>.caption.caption-visible{display:initial;filter:"alpha(opacity=70)";opacity:.7;-webkit-transition:opacity 500ms ease-in;-moz-transition:opacity 500ms ease-in;-o-transition:opacity 500ms ease-in;transition:opacity 500ms ease-in}.justified-gallery>.entry-visible{filter:"alpha(opacity=100)";opacity:1;background:0 0}.justified-gallery>.entry-visible>img,.justified-gallery>.entry-visible>a>img{filter:"alpha(opacity=100)";opacity:1;-webkit-transition:opacity 500ms ease-in;-moz-transition:opacity 500ms ease-in;-o-transition:opacity 500ms ease-in;transition:opacity 500ms ease-in}.justified-gallery>.jg-filtered{display:none}.justified-gallery>.spinner{position:absolute;bottom:0;margin-left:-24px;padding:10px 0;left:50%;filter:"alpha(opacity=100)";opacity:1;overflow:initial}.justified-gallery>.spinner>span{display:inline-block;filter:"alpha(opacity=0)";opacity:0;width:8px;height:8px;margin:0 4px;background-color:#000;border-radius:6px}
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	02) MAGNIFIC POPUP
 /*------------------------------------------------------------------*/
 
@@ -578,7 +578,7 @@ input[type="button"]{
 @font-face{font-family:swiper-icons;src:url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA") format("woff");font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}.swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1}.swiper-container-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box}.swiper-container-android .swiper-slide,.swiper-wrapper{transform:translate3d(0px,0,0)}.swiper-container-multirow>.swiper-wrapper{flex-wrap:wrap}.swiper-container-multirow-column>.swiper-wrapper{flex-wrap:wrap;flex-direction:column}.swiper-container-free-mode>.swiper-wrapper{transition-timing-function:ease-out;margin:0 auto}.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform}.swiper-slide-invisible-blank{visibility:hidden}.swiper-container-autoheight,.swiper-container-autoheight .swiper-slide{height:auto}.swiper-container-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-container-3d{perspective:1200px}.swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper{transform-style:preserve-3d}.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:10}.swiper-container-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-css-mode>.swiper-wrapper{overflow:auto;scrollbar-width:none;-ms-overflow-style:none}.swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar{display:none}.swiper-container-css-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:start start}.swiper-container-horizontal.swiper-container-css-mode>.swiper-wrapper{scroll-snap-type:x mandatory}.swiper-container-vertical.swiper-container-css-mode>.swiper-wrapper{scroll-snap-type:y mandatory}:root{--swiper-navigation-size:44px}.swiper-button-next,.swiper-button-prev{position:absolute;top:50%;width:calc(var(--swiper-navigation-size)/ 44 * 27);height:var(--swiper-navigation-size);margin-top:calc(-1 * var(--swiper-navigation-size)/ 2);z-index:10;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--swiper-navigation-color,var(--swiper-theme-color))}.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{opacity:.35;cursor:auto;pointer-events:none}.swiper-button-next:after,.swiper-button-prev:after{font-family:swiper-icons;font-size:var(--swiper-navigation-size);text-transform:none!important;letter-spacing:0;text-transform:none;font-variant:initial}.swiper-button-prev,.swiper-container-rtl .swiper-button-next{left:10px;right:auto}.swiper-button-prev:after,.swiper-container-rtl .swiper-button-next:after{content:'prev'}.swiper-button-next,.swiper-container-rtl .swiper-button-prev{right:10px;left:auto}.swiper-button-next:after,.swiper-container-rtl .swiper-button-prev:after{content:'next'}.swiper-button-next.swiper-button-white,.swiper-button-prev.swiper-button-white{--swiper-navigation-color:#ffffff}.swiper-button-next.swiper-button-black,.swiper-button-prev.swiper-button-black{--swiper-navigation-color:#000000}.swiper-button-lock{display:none}.swiper-pagination{position:absolute;text-align:center;transition:.3s opacity;transform:translate3d(0,0,0);z-index:10}.swiper-pagination.swiper-pagination-hidden{opacity:0}.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{bottom:10px;left:0;width:100%}.swiper-pagination-bullets-dynamic{overflow:hidden;font-size:0}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transform:scale(.33);position:relative}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{transform:scale(.33)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{transform:scale(.33)}.swiper-pagination-bullet{width:8px;height:8px;display:inline-block;border-radius:100%;background:#000;opacity:.2}button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none}.swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer}.swiper-pagination-bullet-active{opacity:1;background:var(--swiper-pagination-color,var(--swiper-theme-color))}.swiper-container-vertical>.swiper-pagination-bullets{right:10px;top:50%;transform:translate3d(0px,-50%,0)}.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{margin:6px 0;display:block}.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{top:50%;transform:translateY(-50%);width:8px}.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{display:inline-block;transition:.2s transform,.2s top}.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px}.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{left:50%;transform:translateX(-50%);white-space:nowrap}.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s left}.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s right}.swiper-pagination-progressbar{background:rgba(0,0,0,.25);position:absolute}.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background:var(--swiper-pagination-color,var(--swiper-theme-color));position:absolute;left:0;top:0;width:100%;height:100%;transform:scale(0);transform-origin:left top}.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{transform-origin:right top}.swiper-container-horizontal>.swiper-pagination-progressbar,.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{width:100%;height:4px;left:0;top:0}.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.swiper-container-vertical>.swiper-pagination-progressbar{width:4px;height:100%;left:0;top:0}.swiper-pagination-white{--swiper-pagination-color:#ffffff}.swiper-pagination-black{--swiper-pagination-color:#000000}.swiper-pagination-lock{display:none}.swiper-scrollbar{border-radius:10px;position:relative;-ms-touch-action:none;background:rgba(0,0,0,.1)}.swiper-container-horizontal>.swiper-scrollbar{position:absolute;left:1%;bottom:3px;z-index:50;height:5px;width:98%}.swiper-container-vertical>.swiper-scrollbar{position:absolute;right:3px;top:1%;z-index:50;width:5px;height:98%}.swiper-scrollbar-drag{height:100%;width:100%;position:relative;background:rgba(0,0,0,.5);border-radius:10px;left:0;top:0}.swiper-scrollbar-cursor-drag{cursor:move}.swiper-scrollbar-lock{display:none}.swiper-zoom-container{width:100%;height:100%;display:flex;justify-content:center;align-items:center;text-align:center}.swiper-zoom-container>canvas,.swiper-zoom-container>img,.swiper-zoom-container>svg{max-width:100%;max-height:100%;object-fit:contain}.swiper-slide-zoomed{cursor:move}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;margin-left:-21px;margin-top:-21px;z-index:10;transform-origin:50%;animation:swiper-preloader-spin 1s infinite linear;box-sizing:border-box;border:4px solid var(--swiper-preloader-color,var(--swiper-theme-color));border-radius:50%;border-top-color:transparent}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}.swiper-lazy-preloader-black{--swiper-preloader-color:#000}@keyframes swiper-preloader-spin{100%{transform:rotate(360deg)}}.swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000}.swiper-container-fade.swiper-container-free-mode .swiper-slide{transition-timing-function:ease-out}.swiper-container-fade .swiper-slide{pointer-events:none;transition-property:opacity}.swiper-container-fade .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-fade .swiper-slide-active,.swiper-container-fade .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-cube{overflow:visible}.swiper-container-cube .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1;visibility:hidden;transform-origin:0 0;width:100%;height:100%}.swiper-container-cube .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-cube.swiper-container-rtl .swiper-slide{transform-origin:100% 0}.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-next,.swiper-container-cube .swiper-slide-next+.swiper-slide,.swiper-container-cube .swiper-slide-prev{pointer-events:auto;visibility:visible}.swiper-container-cube .swiper-slide-shadow-bottom,.swiper-container-cube .swiper-slide-shadow-left,.swiper-container-cube .swiper-slide-shadow-right,.swiper-container-cube .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.swiper-container-cube .swiper-cube-shadow{position:absolute;left:0;bottom:0px;width:100%;height:100%;background:#000;opacity:.6;-webkit-filter:blur(50px);filter:blur(50px);z-index:0}.swiper-container-flip{overflow:visible}.swiper-container-flip .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1}.swiper-container-flip .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-flip .swiper-slide-active,.swiper-container-flip .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-flip .swiper-slide-shadow-bottom,.swiper-container-flip .swiper-slide-shadow-left,.swiper-container-flip .swiper-slide-shadow-right,.swiper-container-flip .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}
 
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	09) YT PLAYER
 /*------------------------------------------------------------------*/
 
@@ -840,7 +840,7 @@ input[type="button"]{
 }
 
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	05) ANIMATION
 /*------------------------------------------------------------------*/
 
@@ -2459,22 +2459,22 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 @-webkit-keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
+	0%, 50%, 100% {opacity: 1;}
 	25%, 75% {opacity: 0;}
 }
 
 @-moz-keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
+	0%, 50%, 100% {opacity: 1;}
 	25%, 75% {opacity: 0;}
 }
 
 @-o-keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
+	0%, 50%, 100% {opacity: 1;}
 	25%, 75% {opacity: 0;}
 }
 
 @keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
+	0%, 50%, 100% {opacity: 1;}
 	25%, 75% {opacity: 0;}
 }
 
@@ -2544,7 +2544,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: bounce;
 }
 @-webkit-keyframes tada {
-	0% {-webkit-transform: scale(1);}	
+	0% {-webkit-transform: scale(1);}
 	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
@@ -2552,7 +2552,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 @-moz-keyframes tada {
-	0% {-moz-transform: scale(1);}	
+	0% {-moz-transform: scale(1);}
 	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
@@ -2560,7 +2560,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 @-o-keyframes tada {
-	0% {-o-transform: scale(1);}	
+	0% {-o-transform: scale(1);}
 	10%, 20% {-o-transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {-o-transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {-o-transform: scale(1.1) rotate(-3deg);}
@@ -2568,7 +2568,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 @keyframes tada {
-	0% {transform: scale(1);}	
+	0% {transform: scale(1);}
 	10%, 20% {transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
@@ -2583,34 +2583,34 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 @-webkit-keyframes swing {
 	20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; }
-	20% { -webkit-transform: rotate(15deg); }	
+	20% { -webkit-transform: rotate(15deg); }
 	40% { -webkit-transform: rotate(-10deg); }
-	60% { -webkit-transform: rotate(5deg); }	
-	80% { -webkit-transform: rotate(-5deg); }	
+	60% { -webkit-transform: rotate(5deg); }
+	80% { -webkit-transform: rotate(-5deg); }
 	100% { -webkit-transform: rotate(0deg); }
 }
 
 @-moz-keyframes swing {
-	20% { -moz-transform: rotate(15deg); }	
+	20% { -moz-transform: rotate(15deg); }
 	40% { -moz-transform: rotate(-10deg); }
-	60% { -moz-transform: rotate(5deg); }	
-	80% { -moz-transform: rotate(-5deg); }	
+	60% { -moz-transform: rotate(5deg); }
+	80% { -moz-transform: rotate(-5deg); }
 	100% { -moz-transform: rotate(0deg); }
 }
 
 @-o-keyframes swing {
-	20% { -o-transform: rotate(15deg); }	
+	20% { -o-transform: rotate(15deg); }
 	40% { -o-transform: rotate(-10deg); }
-	60% { -o-transform: rotate(5deg); }	
-	80% { -o-transform: rotate(-5deg); }	
+	60% { -o-transform: rotate(5deg); }
+	80% { -o-transform: rotate(-5deg); }
 	100% { -o-transform: rotate(0deg); }
 }
 
 @keyframes swing {
-	20% { transform: rotate(15deg); }	
+	20% { transform: rotate(15deg); }
 	40% { transform: rotate(-10deg); }
-	60% { transform: rotate(5deg); }	
-	80% { transform: rotate(-5deg); }	
+	60% { transform: rotate(5deg); }
+	80% { transform: rotate(-5deg); }
 	100% { transform: rotate(0deg); }
 }
 
@@ -2675,22 +2675,22 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes pulse {
-    0% { -webkit-transform: scale(1); }	
+    0% { -webkit-transform: scale(1); }
 	50% { -webkit-transform: scale(1.1); }
     100% { -webkit-transform: scale(1); }
 }
 @-moz-keyframes pulse {
-    0% { -moz-transform: scale(1); }	
+    0% { -moz-transform: scale(1); }
 	50% { -moz-transform: scale(1.1); }
     100% { -moz-transform: scale(1); }
 }
 @-o-keyframes pulse {
-    0% { -o-transform: scale(1); }	
+    0% { -o-transform: scale(1); }
 	50% { -o-transform: scale(1.1); }
     100% { -o-transform: scale(1); }
 }
 @keyframes pulse {
-    0% { transform: scale(1); }	
+    0% { transform: scale(1); }
 	50% { transform: scale(1.1); }
     100% { transform: scale(1); }
 }
@@ -2805,15 +2805,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         -webkit-transform: perspective(400px) rotateX(90deg);
         opacity: 0;
     }
-    
+
     40% {
         -webkit-transform: perspective(400px) rotateX(-10deg);
     }
-    
+
     70% {
         -webkit-transform: perspective(400px) rotateX(10deg);
     }
-    
+
     100% {
         -webkit-transform: perspective(400px) rotateX(0deg);
         opacity: 1;
@@ -2824,15 +2824,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         -moz-transform: perspective(400px) rotateX(90deg);
         opacity: 0;
     }
-    
+
     40% {
         -moz-transform: perspective(400px) rotateX(-10deg);
     }
-    
+
     70% {
         -moz-transform: perspective(400px) rotateX(10deg);
     }
-    
+
     100% {
         -moz-transform: perspective(400px) rotateX(0deg);
         opacity: 1;
@@ -2843,15 +2843,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         -o-transform: perspective(400px) rotateX(90deg);
         opacity: 0;
     }
-    
+
     40% {
         -o-transform: perspective(400px) rotateX(-10deg);
     }
-    
+
     70% {
         -o-transform: perspective(400px) rotateX(10deg);
     }
-    
+
     100% {
         -o-transform: perspective(400px) rotateX(0deg);
         opacity: 1;
@@ -2862,15 +2862,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         transform: perspective(400px) rotateX(90deg);
         opacity: 0;
     }
-    
+
     40% {
         transform: perspective(400px) rotateX(-10deg);
     }
-    
+
     70% {
         transform: perspective(400px) rotateX(10deg);
     }
-    
+
     100% {
         transform: perspective(400px) rotateX(0deg);
         opacity: 1;
@@ -2946,15 +2946,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         -webkit-transform: perspective(400px) rotateY(90deg);
         opacity: 0;
     }
-    
+
     40% {
         -webkit-transform: perspective(400px) rotateY(-10deg);
     }
-    
+
     70% {
         -webkit-transform: perspective(400px) rotateY(10deg);
     }
-    
+
     100% {
         -webkit-transform: perspective(400px) rotateY(0deg);
         opacity: 1;
@@ -2965,15 +2965,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         -moz-transform: perspective(400px) rotateY(90deg);
         opacity: 0;
     }
-    
+
     40% {
         -moz-transform: perspective(400px) rotateY(-10deg);
     }
-    
+
     70% {
         -moz-transform: perspective(400px) rotateY(10deg);
     }
-    
+
     100% {
         -moz-transform: perspective(400px) rotateY(0deg);
         opacity: 1;
@@ -2984,15 +2984,15 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         -o-transform: perspective(400px) rotateY(90deg);
         opacity: 0;
     }
-    
+
     40% {
         -o-transform: perspective(400px) rotateY(-10deg);
     }
-    
+
     70% {
         -o-transform: perspective(400px) rotateY(10deg);
     }
-    
+
     100% {
         -o-transform: perspective(400px) rotateY(0deg);
         opacity: 1;
@@ -3003,16 +3003,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
         transform: perspective(400px) rotateY(90deg);
         opacity: 0;
     }
-    
+
     40% {
         transform: perspective(400px) rotateY(-10deg);
     }
 
-    
+
     70% {
         transform: perspective(400px) rotateY(10deg);
     }
-    
+
     100% {
         transform: perspective(400px) rotateY(0deg);
         opacity: 1;
@@ -3081,22 +3081,22 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: flipOutY;
 }
 @-webkit-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
 @-moz-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
 @-o-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
 @keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
@@ -3111,7 +3111,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -3123,7 +3123,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateY(0);
@@ -3135,7 +3135,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateY(0);
@@ -3147,7 +3147,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
@@ -3165,7 +3165,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -3177,7 +3177,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateY(0);
@@ -3189,7 +3189,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateY(0);
@@ -3201,7 +3201,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
@@ -3219,7 +3219,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
@@ -3231,7 +3231,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateX(0);
@@ -3243,7 +3243,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateX(0);
@@ -3255,7 +3255,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -3273,7 +3273,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
@@ -3285,7 +3285,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateX(0);
@@ -3297,7 +3297,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateX(0);
@@ -3309,7 +3309,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -3327,7 +3327,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -3339,7 +3339,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateY(0);
@@ -3351,7 +3351,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateY(0);
@@ -3363,7 +3363,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
@@ -3381,7 +3381,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateY(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -3393,7 +3393,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateY(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateY(0);
@@ -3405,7 +3405,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateY(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateY(0);
@@ -3417,7 +3417,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateY(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
@@ -3435,7 +3435,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateX(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
@@ -3446,7 +3446,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateX(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateX(0);
@@ -3457,7 +3457,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateX(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateX(0);
@@ -3468,7 +3468,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateX(-2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -3486,7 +3486,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateX(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
@@ -3498,7 +3498,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateX(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateX(0);
@@ -3510,7 +3510,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateX(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateX(0);
@@ -3522,7 +3522,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateX(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -3566,7 +3566,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(-20px);
@@ -3577,7 +3577,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(-20px);
@@ -3588,7 +3588,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(-20px);
@@ -3599,7 +3599,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(-20px);
@@ -3617,7 +3617,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(20px);
@@ -3629,7 +3629,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(20px);
@@ -3641,7 +3641,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(20px);
@@ -3653,7 +3653,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(20px);
@@ -3671,7 +3671,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateX(-20px);
@@ -3683,7 +3683,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateX(-20px);
@@ -3695,7 +3695,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateX(-20px);
@@ -3707,7 +3707,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateX(-20px);
@@ -3725,7 +3725,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateX(20px);
@@ -3737,7 +3737,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateX(20px);
@@ -3749,7 +3749,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateX(20px);
@@ -3761,7 +3761,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateX(20px);
@@ -3779,7 +3779,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(-2000px);
@@ -3791,7 +3791,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(-2000px);
@@ -3803,7 +3803,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(-2000px);
@@ -3815,7 +3815,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(-2000px);
@@ -3833,7 +3833,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(2000px);
@@ -3845,7 +3845,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(2000px);
@@ -3857,7 +3857,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(2000px);
@@ -3869,7 +3869,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateY(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(2000px);
@@ -3887,7 +3887,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateX(-2000px);
@@ -3899,7 +3899,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateX(-2000px);
@@ -3911,7 +3911,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateX(-2000px);
@@ -3923,7 +3923,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateX(-2000px);
@@ -3941,7 +3941,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-webkit-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateX(2000px);
@@ -3952,7 +3952,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-moz-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateX(2000px);
@@ -3963,7 +3963,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		-o-transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateX(2000px);
@@ -3974,7 +3974,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 1;
 		transform: translateX(0);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateX(2000px);
@@ -3992,16 +3992,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-webkit-transform: scale(1.05);
 	}
-	
+
 	70% {
 		-webkit-transform: scale(.9);
 	}
-	
+
 	100% {
 		-webkit-transform: scale(1);
 	}
@@ -4012,16 +4012,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-moz-transform: scale(1.05);
 	}
-	
+
 	70% {
 		-moz-transform: scale(.9);
 	}
-	
+
 	100% {
 		-moz-transform: scale(1);
 	}
@@ -4032,16 +4032,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-o-transform: scale(1.05);
 	}
-	
+
 	70% {
 		-o-transform: scale(.9);
 	}
-	
+
 	100% {
 		-o-transform: scale(1);
 	}
@@ -4052,16 +4052,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		transform: scale(1.05);
 	}
-	
+
 	70% {
 		transform: scale(.9);
 	}
-	
+
 	100% {
 		transform: scale(1);
 	}
@@ -4078,16 +4078,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateY(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-webkit-transform: translateY(-30px);
 	}
-	
+
 	80% {
 		-webkit-transform: translateY(10px);
 	}
-	
+
 	100% {
 		-webkit-transform: translateY(0);
 	}
@@ -4097,16 +4097,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateY(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-moz-transform: translateY(-30px);
 	}
-	
+
 	80% {
 		-moz-transform: translateY(10px);
 	}
-	
+
 	100% {
 		-moz-transform: translateY(0);
 	}
@@ -4117,16 +4117,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateY(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-o-transform: translateY(-30px);
 	}
-	
+
 	80% {
 		-o-transform: translateY(10px);
 	}
-	
+
 	100% {
 		-o-transform: translateY(0);
 	}
@@ -4137,16 +4137,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateY(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		transform: translateY(-30px);
 	}
-	
+
 	80% {
 		transform: translateY(10px);
 	}
-	
+
 	100% {
 		transform: translateY(0);
 	}
@@ -4163,16 +4163,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-webkit-transform: translateY(30px);
 	}
-	
+
 	80% {
 		-webkit-transform: translateY(-10px);
 	}
-	
+
 	100% {
 		-webkit-transform: translateY(0);
 	}
@@ -4183,16 +4183,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-moz-transform: translateY(30px);
 	}
-	
+
 	80% {
 		-moz-transform: translateY(-10px);
 	}
-	
+
 	100% {
 		-moz-transform: translateY(0);
 	}
@@ -4203,16 +4203,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-o-transform: translateY(30px);
 	}
-	
+
 	80% {
 		-o-transform: translateY(-10px);
 	}
-	
+
 	100% {
 		-o-transform: translateY(0);
 	}
@@ -4223,16 +4223,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		transform: translateY(30px);
 	}
-	
+
 	80% {
 		transform: translateY(-10px);
 	}
-	
+
 	100% {
 		transform: translateY(0);
 	}
@@ -4249,16 +4249,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-webkit-transform: translateX(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-webkit-transform: translateX(30px);
 	}
-	
+
 	80% {
 		-webkit-transform: translateX(-10px);
 	}
-	
+
 	100% {
 		-webkit-transform: translateX(0);
 	}
@@ -4269,16 +4269,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateX(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-moz-transform: translateX(30px);
 	}
-	
+
 	80% {
 		-moz-transform: translateX(-10px);
 	}
-	
+
 	100% {
 		-moz-transform: translateX(0);
 	}
@@ -4289,16 +4289,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateX(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-o-transform: translateX(30px);
 	}
-	
+
 	80% {
 		-o-transform: translateX(-10px);
 	}
-	
+
 	100% {
 		-o-transform: translateX(0);
 	}
@@ -4309,16 +4309,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateX(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		transform: translateX(30px);
 	}
-	
+
 	80% {
 		transform: translateX(-10px);
 	}
-	
+
 	100% {
 		transform: translateX(0);
 	}
@@ -4336,16 +4336,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: translateX(2000px);
 
 	}
-	
+
 	60% {
 		opacity: 1;
 		-webkit-transform: translateX(-30px);
 	}
-	
+
 	80% {
 		-webkit-transform: translateX(10px);
 	}
-	
+
 	100% {
 		-webkit-transform: translateX(0);
 	}
@@ -4356,16 +4356,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-moz-transform: translateX(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-moz-transform: translateX(-30px);
 	}
-	
+
 	80% {
 		-moz-transform: translateX(10px);
 	}
-	
+
 	100% {
 		-moz-transform: translateX(0);
 	}
@@ -4376,16 +4376,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		-o-transform: translateX(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-o-transform: translateX(-30px);
 	}
-	
+
 	80% {
 		-o-transform: translateX(10px);
 	}
-	
+
 	100% {
 		-o-transform: translateX(0);
 	}
@@ -4396,16 +4396,16 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		opacity: 0;
 		transform: translateX(2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		transform: translateX(-30px);
 	}
-	
+
 	80% {
 		transform: translateX(10px);
 	}
-	
+
 	100% {
 		transform: translateX(0);
 	}
@@ -4421,80 +4421,80 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-webkit-transform: scale(1);
 	}
-	
+
 	25% {
 		-webkit-transform: scale(.95);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-webkit-transform: scale(1.1);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: scale(.3);
-	}	
+	}
 }
 
 @-moz-keyframes bounceOut {
 	0% {
 		-moz-transform: scale(1);
 	}
-	
+
 	25% {
 		-moz-transform: scale(.95);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-moz-transform: scale(1.1);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: scale(.3);
-	}	
+	}
 }
 
 @-o-keyframes bounceOut {
 	0% {
 		-o-transform: scale(1);
 	}
-	
+
 	25% {
 		-o-transform: scale(.95);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-o-transform: scale(1.1);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: scale(.3);
-	}	
+	}
 }
 
 @keyframes bounceOut {
 	0% {
 		transform: scale(1);
 	}
-	
+
 	25% {
 		transform: scale(.95);
 	}
-	
+
 	50% {
 		opacity: 1;
 		transform: scale(1.1);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: scale(.3);
-	}	
+	}
 }
 
 .bounceOut {
@@ -4507,12 +4507,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-webkit-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-webkit-transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(-2000px);
@@ -4523,12 +4523,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-moz-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-moz-transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(-2000px);
@@ -4539,12 +4539,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-o-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-o-transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(-2000px);
@@ -4555,12 +4555,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		transform: translateY(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(-2000px);
@@ -4577,12 +4577,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-webkit-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-webkit-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(2000px);
@@ -4593,12 +4593,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-moz-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-moz-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(2000px);
@@ -4609,12 +4609,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-o-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-o-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(2000px);
@@ -4625,12 +4625,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(2000px);
@@ -4647,12 +4647,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-webkit-transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-webkit-transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateX(-2000px);
@@ -4663,12 +4663,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-moz-transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-moz-transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateX(-2000px);
@@ -4679,12 +4679,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-o-transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-o-transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateX(-2000px);
@@ -4695,12 +4695,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		transform: translateX(20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateX(-2000px);
@@ -4717,12 +4717,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-webkit-transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-webkit-transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateX(2000px);
@@ -4733,12 +4733,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-moz-transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-moz-transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateX(2000px);
@@ -4749,12 +4749,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		-o-transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-o-transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateX(2000px);
@@ -4765,12 +4765,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	0% {
 		transform: translateX(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		transform: translateX(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateX(2000px);
@@ -4789,7 +4789,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(-200deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: center center;
 		-webkit-transform: rotate(0);
@@ -4802,7 +4802,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(-200deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-moz-transform-origin: center center;
 		-moz-transform: rotate(0);
@@ -4815,7 +4815,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(-200deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-o-transform-origin: center center;
 		-o-transform: rotate(0);
@@ -4828,7 +4828,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(-200deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		transform-origin: center center;
 		transform: rotate(0);
@@ -4848,7 +4848,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: left bottom;
 		-webkit-transform: rotate(0);
@@ -4862,7 +4862,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-moz-transform-origin: left bottom;
 		-moz-transform: rotate(0);
@@ -4876,7 +4876,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-o-transform-origin: left bottom;
 		-o-transform: rotate(0);
@@ -4890,7 +4890,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		transform-origin: left bottom;
 		transform: rotate(0);
@@ -4910,7 +4910,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: left bottom;
 		-webkit-transform: rotate(0);
@@ -4924,7 +4924,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-moz-transform-origin: left bottom;
 		-moz-transform: rotate(0);
@@ -4938,7 +4938,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-o-transform-origin: left bottom;
 		-o-transform: rotate(0);
@@ -4952,7 +4952,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		transform-origin: left bottom;
 		transform: rotate(0);
@@ -4972,7 +4972,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: right bottom;
 		-webkit-transform: rotate(0);
@@ -4986,7 +4986,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-moz-transform-origin: right bottom;
 		-moz-transform: rotate(0);
@@ -5000,7 +5000,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-o-transform-origin: right bottom;
 		-o-transform: rotate(0);
@@ -5014,7 +5014,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(-90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		transform-origin: right bottom;
 		transform: rotate(0);
@@ -5034,7 +5034,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: right bottom;
 		-webkit-transform: rotate(0);
@@ -5048,7 +5048,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-moz-transform-origin: right bottom;
 		-moz-transform: rotate(0);
@@ -5062,7 +5062,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		-o-transform-origin: right bottom;
 		-o-transform: rotate(0);
@@ -5076,7 +5076,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(90deg);
 		opacity: 0;
 	}
-	
+
 	100% {
 		transform-origin: right bottom;
 		transform: rotate(0);
@@ -5096,7 +5096,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: center center;
 		-webkit-transform: rotate(200deg);
@@ -5110,7 +5110,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-moz-transform-origin: center center;
 		-moz-transform: rotate(200deg);
@@ -5124,7 +5124,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-o-transform-origin: center center;
 		-o-transform: rotate(200deg);
@@ -5138,7 +5138,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		transform-origin: center center;
 		transform: rotate(200deg);
@@ -5158,7 +5158,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: left bottom;
 		-webkit-transform: rotate(-90deg);
@@ -5172,7 +5172,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-moz-transform-origin: left bottom;
 		-moz-transform: rotate(-90deg);
@@ -5186,7 +5186,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-o-transform-origin: left bottom;
 		-o-transform: rotate(-90deg);
@@ -5200,7 +5200,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		transform-origin: left bottom;
 		transform: rotate(-90deg);
@@ -5220,7 +5220,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: left bottom;
 		-webkit-transform: rotate(90deg);
@@ -5234,7 +5234,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-moz-transform-origin: left bottom;
 		-moz-transform: rotate(90deg);
@@ -5248,7 +5248,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-o-transform-origin: left bottom;
 		-o-transform: rotate(90deg);
@@ -5262,7 +5262,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		transform-origin: left bottom;
 		transform: rotate(90deg);
@@ -5282,7 +5282,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: right bottom;
 		-webkit-transform: rotate(90deg);
@@ -5296,7 +5296,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-moz-transform-origin: right bottom;
 		-moz-transform: rotate(90deg);
@@ -5310,7 +5310,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-o-transform-origin: right bottom;
 		-o-transform: rotate(90deg);
@@ -5324,7 +5324,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		transform-origin: right bottom;
 		transform: rotate(90deg);
@@ -5344,7 +5344,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-webkit-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-webkit-transform-origin: right bottom;
 		-webkit-transform: rotate(-90deg);
@@ -5358,7 +5358,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-moz-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-moz-transform-origin: right bottom;
 		-moz-transform: rotate(-90deg);
@@ -5372,7 +5372,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		-o-transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		-o-transform-origin: right bottom;
 		-o-transform: rotate(-90deg);
@@ -5386,7 +5386,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 		transform: rotate(0);
 		opacity: 1;
 	}
-	
+
 	100% {
 		transform-origin: right bottom;
 		transform: rotate(-90deg);
@@ -5401,34 +5401,34 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: rotateOutDownRight;
 }
 @-webkit-keyframes hinge {
-	0% { -webkit-transform: rotate(0); -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }	
-	20%, 60% { -webkit-transform: rotate(80deg); -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }	
-	40% { -webkit-transform: rotate(60deg); -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }	
-	80% { -webkit-transform: rotate(60deg) translateY(0); opacity: 1; -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }	
+	0% { -webkit-transform: rotate(0); -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }
+	20%, 60% { -webkit-transform: rotate(80deg); -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }
+	40% { -webkit-transform: rotate(60deg); -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }
+	80% { -webkit-transform: rotate(60deg) translateY(0); opacity: 1; -webkit-transform-origin: top left; -webkit-animation-timing-function: ease-in-out; }
 	100% { -webkit-transform: translateY(700px); opacity: 0; }
 }
 
 @-moz-keyframes hinge {
-	0% { -moz-transform: rotate(0); -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }	
-	20%, 60% { -moz-transform: rotate(80deg); -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }	
-	40% { -moz-transform: rotate(60deg); -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }	
-	80% { -moz-transform: rotate(60deg) translateY(0); opacity: 1; -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }	
+	0% { -moz-transform: rotate(0); -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }
+	20%, 60% { -moz-transform: rotate(80deg); -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }
+	40% { -moz-transform: rotate(60deg); -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }
+	80% { -moz-transform: rotate(60deg) translateY(0); opacity: 1; -moz-transform-origin: top left; -moz-animation-timing-function: ease-in-out; }
 	100% { -moz-transform: translateY(700px); opacity: 0; }
 }
 
 @-o-keyframes hinge {
-	0% { -o-transform: rotate(0); -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }	
-	20%, 60% { -o-transform: rotate(80deg); -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }	
-	40% { -o-transform: rotate(60deg); -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }	
-	80% { -o-transform: rotate(60deg) translateY(0); opacity: 1; -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }	
+	0% { -o-transform: rotate(0); -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }
+	20%, 60% { -o-transform: rotate(80deg); -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }
+	40% { -o-transform: rotate(60deg); -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }
+	80% { -o-transform: rotate(60deg) translateY(0); opacity: 1; -o-transform-origin: top left; -o-animation-timing-function: ease-in-out; }
 	100% { -o-transform: translateY(700px); opacity: 0; }
 }
 
 @keyframes hinge {
-	0% { transform: rotate(0); transform-origin: top left; animation-timing-function: ease-in-out; }	
-	20%, 60% { transform: rotate(80deg); transform-origin: top left; animation-timing-function: ease-in-out; }	
-	40% { transform: rotate(60deg); transform-origin: top left; animation-timing-function: ease-in-out; }	
-	80% { transform: rotate(60deg) translateY(0); opacity: 1; transform-origin: top left; animation-timing-function: ease-in-out; }	
+	0% { transform: rotate(0); transform-origin: top left; animation-timing-function: ease-in-out; }
+	20%, 60% { transform: rotate(80deg); transform-origin: top left; animation-timing-function: ease-in-out; }
+	40% { transform: rotate(60deg); transform-origin: top left; animation-timing-function: ease-in-out; }
+	80% { transform: rotate(60deg) translateY(0); opacity: 1; transform-origin: top left; animation-timing-function: ease-in-out; }
 	100% { transform: translateY(700px); opacity: 0; }
 }
 
@@ -5691,7 +5691,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     animation-duration: 0.75s;
 }
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	05) PERFECT SCROLLBAR
 /*------------------------------------------------------------------*/
 
@@ -5706,7 +5706,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 .owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{width:auto}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
 
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	08) VEGAS
 /*------------------------------------------------------------------*/
 .vegas-overlay,.vegas-slide,.vegas-slide-inner,.vegas-timer,.vegas-wrapper{position:absolute;top:0;left:0;bottom:0;right:0;overflow:hidden;border:none;padding:0;margin:0}.vegas-overlay{opacity:.5;background:url(overlays/02.png) center center}.vegas-timer{top:auto;bottom:0;height:2px}.vegas-timer-progress{width:0;height:100%;background:#fff;-webkit-transition:width ease-out;transition:width ease-out}.vegas-timer-running .vegas-timer-progress{width:100%}.vegas-slide,.vegas-slide-inner{margin:0;padding:0;background:center center no-repeat;-webkit-transform:translateZ(0);transform:translateZ(0);will-change:transform,opacity}body .vegas-container{overflow:hidden!important;position:relative}.vegas-video{min-width:100%;min-height:100%;width:auto;height:auto}body.vegas-container{overflow:auto;position:static;z-index:-2}body.vegas-container>.vegas-overlay,body.vegas-container>.vegas-slide,body.vegas-container>.vegas-timer{position:absolute;z-index:-1}:root body.vegas-container>.vegas-overlay,:root body.vegas-container>.vegas-slide,_::full-page-media,_:future{bottom:-76px}.vegas-transition-blur,.vegas-transition-blur2{opacity:0;-webkit-filter:blur(32px);filter:blur(32px)}.vegas-transition-blur-in,.vegas-transition-blur2-in{opacity:1;-webkit-filter:blur(0);filter:blur(0)}.vegas-transition-blur2-out{opacity:0}.vegas-transition-burn,.vegas-transition-burn2{opacity:0;-webkit-filter:contrast(1000%) saturate(1000%);filter:contrast(1000%) saturate(1000%)}.vegas-transition-burn-in,.vegas-transition-burn2-in{opacity:1;-webkit-filter:contrast(100%) saturate(100%);filter:contrast(100%) saturate(100%)}.vegas-transition-burn2-out{opacity:0;-webkit-filter:contrast(1000%) saturate(1000%);filter:contrast(1000%) saturate(1000%)}.vegas-transition-fade,.vegas-transition-fade2{opacity:0}.vegas-transition-fade-in,.vegas-transition-fade2-in{opacity:1}.vegas-transition-fade2-out{opacity:0}.vegas-transition-flash,.vegas-transition-flash2{opacity:0;-webkit-filter:brightness(25);filter:brightness(25)}.vegas-transition-flash-in,.vegas-transition-flash2-in{opacity:1;-webkit-filter:brightness(1);filter:brightness(1)}.vegas-transition-flash2-out{opacity:0;-webkit-filter:brightness(25);filter:brightness(25)}.vegas-transition-negative,.vegas-transition-negative2{opacity:0;-webkit-filter:invert(100%);filter:invert(100%)}.vegas-transition-negative-in,.vegas-transition-negative2-in{opacity:1;-webkit-filter:invert(0);filter:invert(0)}.vegas-transition-negative2-out{opacity:0;-webkit-filter:invert(100%);filter:invert(100%)}.vegas-transition-slideDown,.vegas-transition-slideDown2{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vegas-transition-slideDown-in,.vegas-transition-slideDown2-in{-webkit-transform:translateY(0);transform:translateY(0)}.vegas-transition-slideDown2-out{-webkit-transform:translateY(100%);transform:translateY(100%)}.vegas-transition-slideLeft,.vegas-transition-slideLeft2{-webkit-transform:translateX(100%);transform:translateX(100%)}.vegas-transition-slideLeft-in,.vegas-transition-slideLeft2-in{-webkit-transform:translateX(0);transform:translateX(0)}.vegas-transition-slideLeft2-out,.vegas-transition-slideRight,.vegas-transition-slideRight2{-webkit-transform:translateX(-100%);transform:translateX(-100%)}.vegas-transition-slideRight-in,.vegas-transition-slideRight2-in{-webkit-transform:translateX(0);transform:translateX(0)}.vegas-transition-slideRight2-out{-webkit-transform:translateX(100%);transform:translateX(100%)}.vegas-transition-slideUp,.vegas-transition-slideUp2{-webkit-transform:translateY(100%);transform:translateY(100%)}.vegas-transition-slideUp-in,.vegas-transition-slideUp2-in{-webkit-transform:translateY(0);transform:translateY(0)}.vegas-transition-slideUp2-out{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vegas-transition-swirlLeft,.vegas-transition-swirlLeft2{-webkit-transform:scale(2) rotate(35deg);transform:scale(2) rotate(35deg);opacity:0}.vegas-transition-swirlLeft-in,.vegas-transition-swirlLeft2-in{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0);opacity:1}.vegas-transition-swirlLeft2-out,.vegas-transition-swirlRight,.vegas-transition-swirlRight2{-webkit-transform:scale(2) rotate(-35deg);transform:scale(2) rotate(-35deg);opacity:0}.vegas-transition-swirlRight-in,.vegas-transition-swirlRight2-in{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0);opacity:1}.vegas-transition-swirlRight2-out{-webkit-transform:scale(2) rotate(35deg);transform:scale(2) rotate(35deg);opacity:0}.vegas-transition-zoomIn,.vegas-transition-zoomIn2{-webkit-transform:scale(0);transform:scale(0);opacity:0}.vegas-transition-zoomIn-in,.vegas-transition-zoomIn2-in{-webkit-transform:scale(1);transform:scale(1);opacity:1}.vegas-transition-zoomIn2-out,.vegas-transition-zoomOut,.vegas-transition-zoomOut2{-webkit-transform:scale(2);transform:scale(2);opacity:0}.vegas-transition-zoomOut-in,.vegas-transition-zoomOut2-in{-webkit-transform:scale(1);transform:scale(1);opacity:1}.vegas-transition-zoomOut2-out{-webkit-transform:scale(0);transform:scale(0);opacity:0}.vegas-animation-kenburns{-webkit-animation:kenburns ease-out;animation:kenburns ease-out}@-webkit-keyframes kenburns{0%{-webkit-transform:scale(1.5);transform:scale(1.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes kenburns{0%{-webkit-transform:scale(1.5);transform:scale(1.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}.vegas-animation-kenburnsDownLeft{-webkit-animation:kenburnsDownLeft ease-out;animation:kenburnsDownLeft ease-out}@-webkit-keyframes kenburnsDownLeft{0%{-webkit-transform:scale(1.5) translate(10%,-10%);transform:scale(1.5) translate(10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDownLeft{0%{-webkit-transform:scale(1.5) translate(10%,-10%);transform:scale(1.5) translate(10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsDownRight{-webkit-animation:kenburnsDownRight ease-out;animation:kenburnsDownRight ease-out}@-webkit-keyframes kenburnsDownRight{0%{-webkit-transform:scale(1.5) translate(-10%,-10%);transform:scale(1.5) translate(-10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDownRight{0%{-webkit-transform:scale(1.5) translate(-10%,-10%);transform:scale(1.5) translate(-10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsDown{-webkit-animation:kenburnsDown ease-out;animation:kenburnsDown ease-out}@-webkit-keyframes kenburnsDown{0%{-webkit-transform:scale(1.5) translate(0,-10%);transform:scale(1.5) translate(0,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDown{0%{-webkit-transform:scale(1.5) translate(0,-10%);transform:scale(1.5) translate(0,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsLeft{-webkit-animation:kenburnsLeft ease-out;animation:kenburnsLeft ease-out}@-webkit-keyframes kenburnsLeft{0%{-webkit-transform:scale(1.5) translate(10%,0);transform:scale(1.5) translate(10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsLeft{0%{-webkit-transform:scale(1.5) translate(10%,0);transform:scale(1.5) translate(10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsRight{-webkit-animation:kenburnsRight ease-out;animation:kenburnsRight ease-out}@-webkit-keyframes kenburnsRight{0%{-webkit-transform:scale(1.5) translate(-10%,0);transform:scale(1.5) translate(-10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsRight{0%{-webkit-transform:scale(1.5) translate(-10%,0);transform:scale(1.5) translate(-10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUpLeft{-webkit-animation:kenburnsUpLeft ease-out;animation:kenburnsUpLeft ease-out}@-webkit-keyframes kenburnsUpLeft{0%{-webkit-transform:scale(1.5) translate(10%,10%);transform:scale(1.5) translate(10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUpLeft{0%{-webkit-transform:scale(1.5) translate(10%,10%);transform:scale(1.5) translate(10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUpRight{-webkit-animation:kenburnsUpRight ease-out;animation:kenburnsUpRight ease-out}@-webkit-keyframes kenburnsUpRight{0%{-webkit-transform:scale(1.5) translate(-10%,10%);transform:scale(1.5) translate(-10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUpRight{0%{-webkit-transform:scale(1.5) translate(-10%,10%);transform:scale(1.5) translate(-10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUp{-webkit-animation:kenburnsUp ease-out;animation:kenburnsUp ease-out}@-webkit-keyframes kenburnsUp{0%{-webkit-transform:scale(1.5) translate(0,10%);transform:scale(1.5) translate(0,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUp{0%{-webkit-transform:scale(1.5) translate(0,10%);transform:scale(1.5) translate(0,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}
@@ -5717,7 +5717,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
   height: 70px;
   background-color: #fff;
 
-  border-radius: 100%;  
+  border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
 }
@@ -5731,7 +5731,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 @keyframes sk-scaleout {
-  0% { 
+  0% {
     -webkit-transform: scale(0);
     transform: scale(0);
   } 100% {
